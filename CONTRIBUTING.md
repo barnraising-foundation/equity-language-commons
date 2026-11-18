@@ -27,9 +27,9 @@ The full project context lives in [CLAUDE.md](CLAUDE.md) and [ROADMAP.md](ROADMA
 
 For anything beyond a typo fix, **open an issue or discussion first** so we can align before you invest time:
 
-- New term suggestion → [open an issue](https://github.com/jordankrueger/equity-language-commons/issues/new/choose) using the "Suggest a new term" template
+- New term suggestion → [open an issue](https://github.com/barnraising-foundation/equity-language-commons/issues/new/choose) using the "Suggest a new term" template
 - New source guide → "Suggest a new source guide" template
-- Methodology, framing, chapter organization questions → [start a Discussion](https://github.com/jordankrueger/equity-language-commons/discussions)
+- Methodology, framing, chapter organization questions → [start a Discussion](https://github.com/barnraising-foundation/equity-language-commons/discussions)
 - Editorial voice questions → Discussion
 
 For typo fixes, broken-link fixes, and obvious factual corrections, a direct PR is fine: no issue needed.
@@ -46,7 +46,7 @@ You'll need:
 Clone, install Node deps, and start the dev server:
 
 ```bash
-git clone https://github.com/jordankrueger/equity-language-commons.git
+git clone https://github.com/barnraising-foundation/equity-language-commons.git
 cd equity-language-commons/site
 npm install
 npm run dev
@@ -171,7 +171,7 @@ Maintainers with the private source archive can run the complete ingestion and d
 
 ## What we can't accept
 
-- **Full reproductions of copyrighted source guides.** Quotes must be under 50 words, with full attribution. If you've co-written or hold rights to a guide you'd like included, [open a discussion](https://github.com/jordankrueger/equity-language-commons/discussions) or email hello@equitylanguagecommons.org first.
+- **Full reproductions of copyrighted source guides.** Quotes must be under 50 words, with full attribution. If you've co-written or hold rights to a guide you'd like included, [open a discussion](https://github.com/barnraising-foundation/equity-language-commons/discussions) or email hello@equitylanguagecommons.org first.
 - **Claims not traceable to source guides in the corpus.** Every synthesis statement must be attributable to a source we've archived. "Most people think X" without a source isn't usable.
 - **Editorial judgment of source-guide authors.** See [editorial voice rules](#editorial-voice-and-quoting-rules) above. The commons describes; it doesn't characterize earlier guides as failures.
 - **Promotional content for non-style-guide projects.** The commons is a reference, not a directory.

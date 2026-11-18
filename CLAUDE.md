@@ -94,7 +94,7 @@ plus glossary index + SQLite build-time index + Contribute page.
 - main is at `c58994f`, clean tree, 0 open PRs.
 
 **Current 2026-09-04 — public repository and production deployment ready; launch preparation due September 8:**
-- The sanitized contribution repository is public at `jordankrueger/equity-language-commons`; existing issue and discussion routes retain their URLs. Original history and GitHub records are preserved in the private `jordankrueger/equity-language-commons-private-archive-2026-09-04` repository. Keep that repository private.
+- The sanitized contribution repository is public at `barnraising-foundation/equity-language-commons`; existing issue and discussion routes retain their URLs. Original history and GitHub records are preserved in the private `jordankrueger/equity-language-commons-private-archive-2026-09-04` repository. Keep that repository private.
 - Canonical source archive: `/Users/jordankrueger/ClaudeCode/private-archives/equity-language-commons/`. Its README maps the read-only source directory, 64-file checksum manifest, pre-public Git bundle, and GitHub metadata export. Versioned backup coverage remains to be verified; checksums are not proof of a backup.
 - Deployment run `33918018660` succeeded for sanitized commit `867d4f75ce9aa3ec176caadf816d67d40358ab63`; production homepage returned HTTP 200 during wrap-up. Public builds use the committed coverage matrix and do not need private source documents.
 - Tuesday, September 8 task in Notion: Prep Equity Language Commons for launch. Remaining: one outside-reader check, final attribution/quotation/reuse review, archive backup verification, and a short announcement. Tier 1 proofing remains open until completion is confirmed. Older notes below about making the repo public or flipping apex DNS are superseded.
@@ -255,7 +255,7 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 
 - **Production URL:** https://equitylanguagecommons.org/ (launched 2026-09-04). Cloudflare Pages preview remains at https://equity-language-commons.pages.dev/.
 - **Deploy method: GitHub Actions (push to main auto-deploys).** `.github/workflows/deploy.yml` runs the public pipeline: lint-content.py → build-glossary-index.py → check-glossary-index.py → build-sqlite-index.py → npm ci → astro build → wrangler pages deploy. The coverage matrix is committed because its source archive is private. Manual deploy: `./scripts/deploy.sh` still runs the full pipeline through the local archive symlink.
-- **GitHub repo:** https://github.com/jordankrueger/equity-language-commons. Public history must never contain `source-guides/`.
+- **GitHub repo:** https://github.com/barnraising-foundation/equity-language-commons. Public history must never contain `source-guides/`.
 - **Private source archive:** `/Users/jordankrueger/ClaudeCode/private-archives/equity-language-commons/`. Its `source-guides/` directory is canonical and read-only; the project’s ignored `source-guides` path is a symlink to it. See the archive’s `README.md` and checksum manifest before changing any source file.
 - **Wrangler CF Pages project:** `equity-language-commons` on Jordan's personal CF account, Direct Upload type. NOTE: Direct Upload projects CANNOT be converted to native Git integration via the CF dashboard — the "Connect to Git" path is unavailable for direct-upload projects.
 - **Repo secrets (set 2026-06-11):** `CLOUDFLARE_API_TOKEN` (scoped to Pages:Edit) + `CLOUDFLARE_ACCOUNT_ID` (f00242a6a1d94ee54ad9a5792e722252).

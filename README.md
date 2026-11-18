@@ -2,7 +2,7 @@
 
 A cross-referenced omnibus of progressive equity-language guidance: every source organization's rule side-by-side, per term, with attribution.
 
-[![Deploy](https://github.com/jordankrueger/equity-language-commons/actions/workflows/deploy.yml/badge.svg)](https://github.com/jordankrueger/equity-language-commons/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/barnraising-foundation/equity-language-commons/actions/workflows/deploy.yml/badge.svg)](https://github.com/barnraising-foundation/equity-language-commons/actions/workflows/deploy.yml)
 [![Live site](https://img.shields.io/badge/live-equitylanguagecommons.org-a84c2a)](https://equitylanguagecommons.org)
 [![Content licence: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-3a5a2e)](LICENSE)
 
@@ -99,7 +99,7 @@ No databases, no runtime dependencies, no JavaScript framework. The whole site i
 You'll need Node 20+, Python 3.11+, and poppler (for PDF extraction).
 
 ```bash
-git clone https://github.com/jordankrueger/equity-language-commons.git
+git clone https://github.com/barnraising-foundation/equity-language-commons.git
 cd equity-language-commons/site
 npm install
 npm run dev   # http://localhost:4321/
