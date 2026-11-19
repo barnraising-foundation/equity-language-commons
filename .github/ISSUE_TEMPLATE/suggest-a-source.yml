@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for suggesting a source. We're interested in progressive equity-language guides specifically: style references that focus on what to call people and how to frame identity-related issues. Brand identity guides, AP-grammar references, and clinical terminology references are usually out of scope unless they substantially intersect with equity language.
 
-        For host posture (whether the commons can mirror the PDF, link out, etc.), see [ROADMAP.md](https://github.com/jordankrueger/equity-language-commons/blob/main/ROADMAP.md). We'll figure out the posture during intake.
+        For host posture (whether the commons can mirror the PDF, link out, etc.), see [ROADMAP.md](https://github.com/barnraising-foundation/equity-language-commons/blob/main/ROADMAP.md). We'll figure out the posture during intake.
 
   - type: input
     id: org
@@ -58,7 +58,7 @@ body:
     attributes:
       label: Best guess on host posture
       description: |
-        Three options, see [ROADMAP.md](https://github.com/jordankrueger/equity-language-commons/blob/main/ROADMAP.md) for the full criteria.
+        Three options, see [ROADMAP.md](https://github.com/barnraising-foundation/equity-language-commons/blob/main/ROADMAP.md) for the full criteria.
       options:
         - Active organization, link-out only (most live web docs)
         - Active organization, private mirror + link-out (static PDFs)
