@@ -15,11 +15,11 @@
   --bg-warn: #f6ecd9;
   --ink: #22201c;
   --ink-soft: #5a564e;
-  --ink-muted: #8a857a;
+  --ink-muted: #706b62;
   --rule: #e5ddce;
   --rule-soft: #efe8d9;
   --accent: #a84c2a;
-  --accent-soft: #c87155;
+  --accent-soft: #b2573a;
   --warn: #a8791a;
 
   /* recommendation badge colors */
@@ -179,6 +179,10 @@ h3 {
 p { margin: 0 0 1rem; }
 p strong { font-weight: 600; color: var(--ink); }
 a { color: var(--accent); }
+main :is(p:not(.breadcrumb), .source-foot, .sources-list) a[href]:not(.btn, [role="button"]) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
 
 .kicker {
   font-family: "Charter", Georgia, serif;
