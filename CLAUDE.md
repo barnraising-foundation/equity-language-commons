@@ -251,6 +251,11 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 - `ROADMAP.md` — phased plan
 - `preview/` — early HTML/CSS design previews (pre-Astro)
 
+## Accessibility (2026-11-20, 39c1090)
+
+- `--ink-muted` (#706b62) is the shared muted text color and `--accent-soft` (#b2573a) the soft accent; keep both at 4.5:1 or better on every background they sit on. Links inside body prose are underlined (breadcrumbs are not). Full-site axe: 0 contrast failures, 0 link-in-text-block. Audit: `personal/accessibility-audit/2026-11-20-personal-sites.html`.
+- GitHub reports 29 dependabot vulnerabilities (12 high) on this repo as of 2026-11-20; not yet triaged (roadmap item, not a task).
+
 ## Deploy
 
 - **Production URL:** https://equitylanguagecommons.org/ (launched 2026-09-04). Cloudflare Pages preview remains at https://equity-language-commons.pages.dev/.
